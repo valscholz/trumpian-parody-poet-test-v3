@@ -4,5 +4,12 @@
   "pattern": "minimal",
   "created_at": "2025-08-19T19:26:29.122699",
   "github_repo": "https://github.com/valscholz/trumpian-parody-poet-test-v3",
-  "caminu_version": "1.0.0"
+  "caminu_version": "1.0.0",
+  "deployment": {
+    "project_id": "proj_test_123",
+    "region": "us-central1",
+    "staging_url": "https://trumpian_parody_poet-staging-proj_test_123.run.app",
+    "production_url": "https://trumpian_parody_poet-prod-proj_test_123.run.app",
+    "setup_date": "2025-08-19T19:30:51.399854"
+  }
 }

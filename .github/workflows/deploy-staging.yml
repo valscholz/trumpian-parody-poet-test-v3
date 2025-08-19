@@ -7,9 +7,9 @@ on:
     branches: [staging]
 
 env:
-  PROJECT_ID: proj_1755601780.27505
+  PROJECT_ID: caminu-469013
   REGION: us-central1
-  SERVICE_NAME: Create an agent that generates poems from Donald T-staging
+  SERVICE_NAME: trumpian_parody_poet-staging
 
 jobs:
   deploy:

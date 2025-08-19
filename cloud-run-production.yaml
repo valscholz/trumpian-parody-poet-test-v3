@@ -2,10 +2,10 @@ apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
   labels:
-    agent: Create an agent that generates poems from Donald T
+    agent: trumpian_parody_poet
     environment: production
     managed-by: caminu
-  name: Create an agent that generates poems from Donald T-production
+  name: trumpian_parody_poet-production
 spec:
   template:
     metadata:
@@ -23,8 +23,7 @@ spec:
             secretKeyRef:
               key: latest
               name: openai-api-key
-        image: gcr.io/${PROJECT_ID}/Create an agent that generates poems from Donald
-          T:${IMAGE_TAG}
+        image: gcr.io/${PROJECT_ID}/trumpian_parody_poet:${IMAGE_TAG}
         ports:
         - containerPort: 8080
           name: http1
@@ -32,4 +31,4 @@ spec:
           limits:
             cpu: '2'
             memory: 1Gi
-      serviceAccountName: Create an agent that generates poems from Donald T-sa
+      serviceAccountName: trumpian_parody_poet-sa

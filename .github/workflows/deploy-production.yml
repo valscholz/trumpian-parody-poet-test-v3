@@ -6,9 +6,9 @@ on:
   workflow_dispatch:  # Allow manual trigger
 
 env:
-  PROJECT_ID: proj_1755601780.27505
+  PROJECT_ID: caminu-469013
   REGION: us-central1
-  SERVICE_NAME: Create an agent that generates poems from Donald T-prod
+  SERVICE_NAME: trumpian_parody_poet-prod
 
 jobs:
   deploy:
