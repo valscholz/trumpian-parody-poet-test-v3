@@ -1,0 +1,7 @@
+openai-agents>=0.2.6
+openai>=1.70.0
+python-dotenv>=1.0.1
+asyncio
+fastapi>=0.100.0
+uvicorn>=0.23.0
+requests>=2.31.0
